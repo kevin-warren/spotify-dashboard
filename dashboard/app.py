@@ -20,6 +20,8 @@ df = load_data()
 df['played_at'] = pd.to_datetime(df['played_at'])
 df['hour'] = df['played_at'].dt.hour
 df['day_of_week'] = df['played_at'].dt.day_name()
+df = df[df['track_name'] != 'Unknown Track']
+df = df[df['artist_name'] != 'Unknown Artist']
 
 # --- SUMMARY STATS SECTION ---
 st.header("Summary Statistics")
@@ -155,21 +157,21 @@ chart_day = (
 st.altair_chart(chart_day, use_container_width=True)
 
 # --- TOP ALBUMS SECTION ---
-st.header("🎵 Top Albums")
-top_albums = df['album_name'].value_counts().head(10).reset_index()
-top_albums.columns = ['Album', 'Plays']
+# st.header("🎵 Top Albums")
+# top_albums = df['album_name'].value_counts().head(10).reset_index()
+# top_albums.columns = ['Album', 'Plays']
 
-chart_albums = (
-    alt.Chart(top_albums)
-    .mark_bar()
-    .encode(
-        x=alt.X('Plays:Q', title="Number of Plays"),
-        y=alt.Y('Album:N', sort='-x', title="Album"),
-        tooltip=['Album', 'Plays']
-    )
-    .properties(width=700, height=400, title="Top 10 Albums")
-)
-st.altair_chart(chart_albums, use_container_width=True)
+# chart_albums = (
+#     alt.Chart(top_albums)
+#     .mark_bar()
+#     .encode(
+#         x=alt.X('Plays:Q', title="Number of Plays"),
+#         y=alt.Y('Album:N', sort='-x', title="Album"),
+#         tooltip=['Album', 'Plays']
+#     )
+#     .properties(width=700, height=400, title="Top 10 Albums")
+# )
+# st.altair_chart(chart_albums, use_container_width=True)
 
 # # --- TOP GENRES SECTION ---
 # st.header("🎵 Top Genres")

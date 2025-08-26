@@ -1,0 +1,138 @@
+{
+  "topArtists": {
+    "numUniqueArtists": 856,
+    "topArtists": [
+      {
+        "artistUri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      },
+      {
+        "artistUri": "spotify:artist:718COspgdWOnwOFpJHRZHS"
+      },
+      {
+        "artistUri": "spotify:artist:4oUHIQIBe0LHzYfvXNW4QM"
+      },
+      {
+        "artistUri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+      },
+      {
+        "artistUri": "spotify:artist:33qOK5uJ8AR2xuQQAhHump"
+      }
+    ],
+    "topArtistMilliseconds": 55156818,
+    "topArtistFanPercentage": 0.011438903
+  },
+  "topPodcasts": {
+    "topPodcastsUri": [
+      "spotify:show:0awxEJH88Xur0GHXuteBLw",
+      "spotify:show:0XrOqvxlqQI6bmdYHuIVnr",
+      "spotify:show:0c4sAoeyi6DegxQrsxcpAT",
+      "spotify:show:40MKOGQ99YLZvgR2KYHmHl"
+    ],
+    "topPodcastMilliseconds": 133096015,
+    "topPodcastPercentage": 0.0,
+    "totalPodcastMilliseconds": 221973779
+  },
+  "topTracks": {
+    "topTracks": [
+      "spotify:track:7221xIgOnuakPdLqT0F3nP",
+      "spotify:track:6dOtVTDdiauQNBQEDOtlAB",
+      "spotify:track:28n8z9IQKyjMPxmvYMBqZa",
+      "spotify:track:5JNdWvUQz88ReuMRhbt2a7",
+      "spotify:track:1Lo0QY9cvc8sUB2vnIOxDT"
+    ],
+    "topTrackPlayCount": 73,
+    "topTrackFirstPlayedDate": "2024-05-12",
+    "distinctTracksPlayed": 1613
+  },
+  "yearlyMetrics": {
+    "totalMsListened": 1149675805,
+    "mostListenedDay": "2024-04-25",
+    "mostListenedDayMinutes": 516.3792,
+    "percentGreaterThanWorldwideUsers": 80.93643
+  },
+  "musicEvolution": {
+    "eras": [
+      {
+        "key": "0",
+        "peakMonth": 5,
+        "color": "yellow-blue",
+        "genre": "soundtrack",
+        "mood": "theatrical",
+        "descriptor": "fantasy",
+        "pivotalArtists": [
+          "spotify:artist:3PhL2Vdao2v8SS8AptuhAr",
+          "spotify:artist:2snm3HmsnDUDxbIChdl2Oj",
+          "spotify:artist:5qBZETtyzfYnXOobDXbmcD"
+        ],
+        "tracks": [
+          {
+            "trackName": "Summer Song",
+            "trackUri": "spotify:track:1wCUlLLDYMEoTSKOtcIwZU"
+          },
+          {
+            "trackName": "Becoming one of \"The People\" Becoming one with Neytiri",
+            "trackUri": "spotify:track:1UBd7aWHZCz8yirI9KCvAU"
+          },
+          {
+            "trackName": "Happy Ending",
+            "trackUri": "spotify:track:3U6dwrHIToo5DIAhAQzZff"
+          }
+        ]
+      },
+      {
+        "key": "1",
+        "peakMonth": 8,
+        "color": "red",
+        "genre": "pop",
+        "mood": "pink pilates princess",
+        "descriptor": "western",
+        "pivotalArtists": [
+          "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
+          "spotify:artist:45dkTj5sMRSjrmBSBeiHym",
+          "spotify:artist:74KM79TiuVKeVCqs8QtB0B"
+        ],
+        "tracks": [
+          {
+            "trackName": "BIRDS OF A FEATHER",
+            "trackUri": "spotify:track:6dOtVTDdiauQNBQEDOtlAB"
+          },
+          {
+            "trackName": "BLUE",
+            "trackUri": "spotify:track:2prqm9sPLj10B4Wg0wE5x9"
+          },
+          {
+            "trackName": "we're not alike",
+            "trackUri": "spotify:track:0tFRxPQHvAUMTbWYRJUo8R"
+          }
+        ]
+      },
+      {
+        "key": "2",
+        "peakMonth": 9,
+        "color": "yellow-blue",
+        "genre": "country",
+        "mood": "wild west",
+        "descriptor": "slow dance",
+        "pivotalArtists": [
+          "spotify:artist:246dkjvS1zLTtiykXe5h60",
+          "spotify:artist:718COspgdWOnwOFpJHRZHS",
+          "spotify:artist:4oUHIQIBe0LHzYfvXNW4QM"
+        ],
+        "tracks": [
+          {
+            "trackName": "I Had Some Help (Feat. Morgan Wallen)",
+            "trackUri": "spotify:track:7221xIgOnuakPdLqT0F3nP"
+          },
+          {
+            "trackName": "The Kind of Love We Make",
+            "trackUri": "spotify:track:28n8z9IQKyjMPxmvYMBqZa"
+          },
+          {
+            "trackName": "Pour Me A Drink (Feat. Blake Shelton)",
+            "trackUri": "spotify:track:5JNdWvUQz88ReuMRhbt2a7"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+List(Map(city -> Westfield, street -> 5 Doris Parkway, postal_code_short -> 07090, state -> NJ), Map(city -> Westfield, state -> NJ, postal_code_extra -> 2620, street -> 5 Doris Parkway, postal_code_short -> 07090), Map(city -> Westfield), Map(postal_code_extra -> 2620, street -> 5 Doris Parkway, postal_code_short -> 07090, state -> NJ))
