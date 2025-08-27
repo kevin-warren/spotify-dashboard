@@ -11,7 +11,7 @@ import numpy as np
 import altair as alt
 
 st.set_page_config(page_title="Spotify Dashboard", page_icon="🎵")
-st.title("🎵 Spotify Listening Dashboard")
+st.title("Spotify Listening Dashboard 🎵")
 
 # Load data
 df = load_data()
@@ -106,7 +106,7 @@ st.altair_chart(chart, use_container_width=True)
 import altair as alt
 
 # --- TOP ARTISTS SECTION ---
-st.header("🎵 Top Artists")
+st.header("Top Artists")
 top_artists = df['artist_name'].value_counts().head(10).reset_index()
 top_artists.columns = ['Artist', 'Plays']
 
@@ -123,7 +123,7 @@ chart_artists = (
 st.altair_chart(chart_artists, use_container_width=True)
 
 # --- TOP TRACKS SECTION ---
-st.header("🎵 Top Tracks")
+st.header("Top Tracks")
 top_tracks = df['track_name'].value_counts().head(10).reset_index()
 top_tracks.columns = ['Track', 'Plays']
 
@@ -140,7 +140,7 @@ chart_tracks = (
 st.altair_chart(chart_tracks, use_container_width=True)
 
 # --- LISTENING BY DAY SECTION ---
-st.header("🎵 Listening by Day")
+st.header("Listening by Day")
 listening_by_day = df.groupby('day_of_week')['minutes_played'].sum().reset_index()
 listening_by_day.columns = ['Day of Week', 'Minutes Played']
 
